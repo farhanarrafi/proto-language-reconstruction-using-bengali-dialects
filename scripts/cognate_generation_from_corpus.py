@@ -1,3 +1,6 @@
+#           Cognate Generation From Corpus          #
+
+
 from pathlib import Path
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 from tqdm import tqdm # progress bar

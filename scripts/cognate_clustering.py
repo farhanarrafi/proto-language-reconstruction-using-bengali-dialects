@@ -1,11 +1,11 @@
+#           Cognate Clustering          #
+
+
+
 from pathlib import Path
-import epitran
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 from tqdm import tqdm # progress bar
-from functools import reduce
 import numpy as np # numerical operations
-import asyncio
-from deep_translator import GoogleTranslator
 
 cognet_filelist = ['vashantor_cognets_barishal_ipa_with_bangla_ipa.csv', 'vashantor_cognets_sylhet_ipa_with_bangla_ipa.csv', 'vashantor_cognets_mymensingh_ipa_with_bangla_ipa.csv', 'vashantor_cognets_noakhali_ipa_with_bangla_ipa.csv', 'vashantor_cognets_chittagong_ipa_with_bangla_ipa.csv']
 
